@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "theme": "Dark",
+    "appIcon": "default",
+    "trackingEnabled": true,
+    "focusDuration": 25,
+    "shortBreakDuration": 5,
+    "longBreakDuration": 15,
+    "reminderTime": "09:00",
+    "focusReminderTime": "10:00",
+    "weeklyReportEnabled": true,
+    "limitWarningsEnabled": true,
+    "ignoreBackgroundEnabled": false,
+    "dailyGoal": 270,
+    "downtimeEnabled": true,
+    "downtimeStart": "22:00",
+    "downtimeEnd": "07:00",
+    "notificationStrictness": "Strict",
+    "alwaysAllowedApps": ["Phone", "Messages", "Maps", "Calendar"]
+  },
+  "limits": [
+    { "id": "social", "type": "category", "title": "Social Media", "subtitle": "Instagram, TikTok, X", "limit": "1h 30m", "color": "bg-blue-500", "icon": "Users", "enabled": true },
+    { "id": "entertainment", "type": "category", "title": "Entertainment", "subtitle": "Netflix, YouTube", "limit": "2h 00m", "color": "bg-orange-500", "icon": "Clapperboard", "enabled": true },
+    { "id": "productivity", "type": "category", "title": "Productivity", "subtitle": "Mail, Notes, Calendar", "limit": "No Limit", "color": "bg-green-500", "icon": "CheckCircle", "enabled": true }
+  ],
+  "sessions": [],
+  "usage": []
+}
