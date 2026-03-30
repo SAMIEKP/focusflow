@@ -73,10 +73,6 @@ focusflow/
 └── README.md           # This file!
 ```
 
-## 📱 Screenshots
-
-*(Add screenshots of Dashboard, Focus Mode, Reports here)*
-
 ## 🤝 Contributing
 
 1. Fork the repo.
