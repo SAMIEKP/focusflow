@@ -1,65 +1,96 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# FocusFlow 🧠
+
+<div align=\"center\">
+  <img width=\"1200\" alt=\"FocusFlow Banner\" src=\"https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6\" />
+  <br>
+  <img src=\"https://img.shields.io/badge/React-18-blue?style=flat&logo=react\" alt=\"React\"/>
+  <img src=\"https://img.shields.io/badge/TypeScript-5-orange?style=flat&logo=typescript\" alt=\"TypeScript\"/>
+  <img src=\"https://img.shields.io/badge/Vite-5-green?style=flat&logo=vite\" alt=\"Vite\"/>
+  <img src=\"https://img.shields.io/badge/json--server-black?style=flat&logo=node.js\" alt=\"json-server\"/>
 </div>
 
-# Run and deploy your AI Studio app
+[![npm version](https://img.shields.io/npm/v/focusflow.svg)](https://www.npmjs.com/package/focusflow)
 
-This contains everything you need to run your app locally.
+**FocusFlow** is a modern, responsive productivity web application designed to help users enhance their focus, manage time effectively, and track progress with intuitive tools like focus sessions, schedules, limits, reports, and customizable settings. Built with React and TypeScript for a seamless developer and user experience.
 
-View your app in AI Studio: https://ai.studio/apps/0b9e63bb-8d18-497b-a366-78718e0f179e
+## ✨ Features
 
-## Run Locally
+- **Dashboard** - Centralized overview of your focus stats, active sessions, and quick actions.
+- **Focus Mode** - Immersive timer-based focus sessions (Pomodoro-style) to boost productivity.
+- **Focus Schedules** - Plan and manage recurring focus sessions with custom durations and breaks.
+- **Limits** - Set daily/weekly usage limits to prevent burnout and maintain balance.
+- **Reports** - Detailed analytics and progress reports with visualizations.
+- **Settings** - Personalized configuration via intuitive settings panel and context.
+- **Responsive UI** - Mobile-friendly with bottom navigation for easy access.
+- **Mock Backend** - JSON-server powered data persistence for development.
 
-**Prerequisites:**  Node.js
+## 🛠 Tech Stack
 
+- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS (inferred from index.css)
+- **State Management**: React Context (SettingsContext)
+- **Custom Hooks**: useFocusScheduler for scheduling logic
+- **Backend**: json-server (server/index.ts + db.json)
+- **Build Tools**: Vite, TypeScript
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
->>>>>>> 1c6d22c (Initial Mac commit)
-=======
-# FocusFlow
+## 🚀 Quick Start
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+### Prerequisites
+- Node.js (v18+)
 
-# Run and deploy your AI Studio app
+### Installation
+```bash
+npm install
+```
 
-This contains everything you need to run your app locally.
+### Run Development Server
+```bash
+npm run dev
+```
 
-View your app in AI Studio: https://ai.studio/apps/0b9e63bb-8d18-497b-a366-78718e0f179e
+Open [http://localhost:5173](http://localhost:5173) to view in browser.
 
-## Run Locally
+### Backend (Mock API)
+The app uses json-server for data. It starts automatically with `npm run dev` via Vite config.
 
-**Prerequisites:**  Node.js
+## 📁 Project Structure
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-=======
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+```
+focusflow/
+├── src/
+│   ├── components/     # UI components (Dashboard, FocusMode, etc.)
+│   ├── context/        # React Context for global state
+│   ├── hooks/          # Custom React hooks
+│   ├── types.ts        # TypeScript type definitions
+│   ├── App.tsx         # Root App component
+│   ├── main.tsx        # Entry point
+│   └── index.css       # Global styles
+├── server/             # Mock backend
+│   ├── db.json         # Data store
+│   └── index.ts        # Server config
+├── package.json        # Dependencies & scripts
+├── vite.config.ts      # Vite configuration
+├── tsconfig.json       # TypeScript config
+└── README.md           # This file!
+```
 
-# Run and deploy your AI Studio app
+## 📱 Screenshots
 
-This contains everything you need to run your app locally.
+*(Add screenshots of Dashboard, Focus Mode, Reports here)*
 
-View your app in AI Studio: https://ai.studio/apps/0b9e63bb-8d18-497b-a366-78718e0f179e
+## 🤝 Contributing
 
-## Run Locally
+1. Fork the repo.
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to branch (`git push origin feature/AmazingFeature`).
+5. Open Pull Request.
 
-**Prerequisites:**  Node.js
+## 📄 License
 
+This project is open-source and available under the MIT License.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
->>>>>>> 1c6d22c (Initial Mac commit)
+---
+
+⭐ Star us on GitHub if you find it useful!  
+💬 Join the conversation in Issues or Discussions.
+
