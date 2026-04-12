@@ -3,7 +3,7 @@
 <div align=\"center\">
   <img width=\"1200\" alt=\"FocusFlow Banner\" src=\"https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6\" />
   <br>
-  <img src=\"https://img.shields.io/badge/React-18-blue?style=flat&logo=react\" alt=\"React\"/>
+  ![React](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
   <img src=\"https://img.shields.io/badge/TypeScript-5-orange?style=flat&logo=typescript\" alt=\"TypeScript\"/>
   <img src=\"https://img.shields.io/badge/Vite-5-green?style=flat&logo=vite\" alt=\"Vite\"/>
   <img src=\"https://img.shields.io/badge/json--server-black?style=flat&logo=node.js\" alt=\"json-server\"/>
